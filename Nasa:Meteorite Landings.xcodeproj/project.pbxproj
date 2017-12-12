@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5F63D341FE0008500D26AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D331FE0008500D26AEB /* AppDelegate.swift */; };
+		D5F63D361FE0008500D26AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D351FE0008500D26AEB /* ViewController.swift */; };
+		D5F63D391FE0008500D26AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F63D371FE0008500D26AEB /* Main.storyboard */; };
+		D5F63D3C1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D3A1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodeld */; };
+		D5F63D3E1FE0008500D26AEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5F63D3D1FE0008500D26AEB /* Assets.xcassets */; };
+		D5F63D411FE0008500D26AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F63D3F1FE0008500D26AEB /* LaunchScreen.storyboard */; };
+		D5F63D4C1FE0008600D26AEB /* Nasa_Meteorite_LandingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D4B1FE0008600D26AEB /* Nasa_Meteorite_LandingsTests.swift */; };
+		D5F63D571FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D561FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5F63D481FE0008600D26AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F63D281FE0008500D26AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F63D2F1FE0008500D26AEB;
+			remoteInfo = "Nasa:Meteorite Landings";
+		};
+		D5F63D531FE0008600D26AEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5F63D281FE0008500D26AEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5F63D2F1FE0008500D26AEB;
+			remoteInfo = "Nasa:Meteorite Landings";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5F63D301FE0008500D26AEB /* Nasa:Meteorite Landings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa:Meteorite Landings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F63D331FE0008500D26AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D5F63D351FE0008500D26AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D5F63D381FE0008500D26AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5F63D3B1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Nasa_Meteorite_Landings.xcdatamodel; sourceTree = "<group>"; };
+		D5F63D3D1FE0008500D26AEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5F63D401FE0008500D26AEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5F63D421FE0008500D26AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F63D471FE0008600D26AEB /* Nasa:Meteorite LandingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nasa:Meteorite LandingsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F63D4B1FE0008600D26AEB /* Nasa_Meteorite_LandingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasa_Meteorite_LandingsTests.swift; sourceTree = "<group>"; };
+		D5F63D4D1FE0008600D26AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F63D521FE0008600D26AEB /* Nasa:Meteorite LandingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nasa:Meteorite LandingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F63D561FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasa_Meteorite_LandingsUITests.swift; sourceTree = "<group>"; };
+		D5F63D581FE0008600D26AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5F63D2D1FE0008500D26AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F63D441FE0008600D26AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F63D4F1FE0008600D26AEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5F63D271FE0008500D26AEB = {
+			isa = PBXGroup;
+			children = (
+				D5F63D321FE0008500D26AEB /* Nasa:Meteorite Landings */,
+				D5F63D4A1FE0008600D26AEB /* Nasa:Meteorite LandingsTests */,
+				D5F63D551FE0008600D26AEB /* Nasa:Meteorite LandingsUITests */,
+				D5F63D311FE0008500D26AEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5F63D311FE0008500D26AEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5F63D301FE0008500D26AEB /* Nasa:Meteorite Landings.app */,
+				D5F63D471FE0008600D26AEB /* Nasa:Meteorite LandingsTests.xctest */,
+				D5F63D521FE0008600D26AEB /* Nasa:Meteorite LandingsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5F63D321FE0008500D26AEB /* Nasa:Meteorite Landings */ = {
+			isa = PBXGroup;
+			children = (
+				D5F63D331FE0008500D26AEB /* AppDelegate.swift */,
+				D5F63D351FE0008500D26AEB /* ViewController.swift */,
+				D5F63D371FE0008500D26AEB /* Main.storyboard */,
+				D5F63D3D1FE0008500D26AEB /* Assets.xcassets */,
+				D5F63D3F1FE0008500D26AEB /* LaunchScreen.storyboard */,
+				D5F63D421FE0008500D26AEB /* Info.plist */,
+				D5F63D3A1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodeld */,
+			);
+			path = "Nasa:Meteorite Landings";
+			sourceTree = "<group>";
+		};
+		D5F63D4A1FE0008600D26AEB /* Nasa:Meteorite LandingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F63D4B1FE0008600D26AEB /* Nasa_Meteorite_LandingsTests.swift */,
+				D5F63D4D1FE0008600D26AEB /* Info.plist */,
+			);
+			path = "Nasa:Meteorite LandingsTests";
+			sourceTree = "<group>";
+		};
+		D5F63D551FE0008600D26AEB /* Nasa:Meteorite LandingsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5F63D561FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift */,
+				D5F63D581FE0008600D26AEB /* Info.plist */,
+			);
+			path = "Nasa:Meteorite LandingsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5F63D2F1FE0008500D26AEB /* Nasa:Meteorite Landings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F63D5B1FE0008600D26AEB /* Build configuration list for PBXNativeTarget "Nasa:Meteorite Landings" */;
+			buildPhases = (
+				D5F63D2C1FE0008500D26AEB /* Sources */,
+				D5F63D2D1FE0008500D26AEB /* Frameworks */,
+				D5F63D2E1FE0008500D26AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nasa:Meteorite Landings";
+			productName = "Nasa:Meteorite Landings";
+			productReference = D5F63D301FE0008500D26AEB /* Nasa:Meteorite Landings.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5F63D461FE0008600D26AEB /* Nasa:Meteorite LandingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F63D5E1FE0008600D26AEB /* Build configuration list for PBXNativeTarget "Nasa:Meteorite LandingsTests" */;
+			buildPhases = (
+				D5F63D431FE0008600D26AEB /* Sources */,
+				D5F63D441FE0008600D26AEB /* Frameworks */,
+				D5F63D451FE0008600D26AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F63D491FE0008600D26AEB /* PBXTargetDependency */,
+			);
+			name = "Nasa:Meteorite LandingsTests";
+			productName = "Nasa:Meteorite LandingsTests";
+			productReference = D5F63D471FE0008600D26AEB /* Nasa:Meteorite LandingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5F63D511FE0008600D26AEB /* Nasa:Meteorite LandingsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5F63D611FE0008600D26AEB /* Build configuration list for PBXNativeTarget "Nasa:Meteorite LandingsUITests" */;
+			buildPhases = (
+				D5F63D4E1FE0008600D26AEB /* Sources */,
+				D5F63D4F1FE0008600D26AEB /* Frameworks */,
+				D5F63D501FE0008600D26AEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5F63D541FE0008600D26AEB /* PBXTargetDependency */,
+			);
+			name = "Nasa:Meteorite LandingsUITests";
+			productName = "Nasa:Meteorite LandingsUITests";
+			productReference = D5F63D521FE0008600D26AEB /* Nasa:Meteorite LandingsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5F63D281FE0008500D26AEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Oussama Ayed";
+				TargetAttributes = {
+					D5F63D2F1FE0008500D26AEB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					D5F63D461FE0008600D26AEB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5F63D2F1FE0008500D26AEB;
+					};
+					D5F63D511FE0008600D26AEB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D5F63D2F1FE0008500D26AEB;
+					};
+				};
+			};
+			buildConfigurationList = D5F63D2B1FE0008500D26AEB /* Build configuration list for PBXProject "Nasa:Meteorite Landings" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5F63D271FE0008500D26AEB;
+			productRefGroup = D5F63D311FE0008500D26AEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5F63D2F1FE0008500D26AEB /* Nasa:Meteorite Landings */,
+				D5F63D461FE0008600D26AEB /* Nasa:Meteorite LandingsTests */,
+				D5F63D511FE0008600D26AEB /* Nasa:Meteorite LandingsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5F63D2E1FE0008500D26AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F63D411FE0008500D26AEB /* LaunchScreen.storyboard in Resources */,
+				D5F63D3E1FE0008500D26AEB /* Assets.xcassets in Resources */,
+				D5F63D391FE0008500D26AEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F63D451FE0008600D26AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F63D501FE0008600D26AEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5F63D2C1FE0008500D26AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F63D361FE0008500D26AEB /* ViewController.swift in Sources */,
+				D5F63D341FE0008500D26AEB /* AppDelegate.swift in Sources */,
+				D5F63D3C1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F63D431FE0008600D26AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F63D4C1FE0008600D26AEB /* Nasa_Meteorite_LandingsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5F63D4E1FE0008600D26AEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5F63D571FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5F63D491FE0008600D26AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F63D2F1FE0008500D26AEB /* Nasa:Meteorite Landings */;
+			targetProxy = D5F63D481FE0008600D26AEB /* PBXContainerItemProxy */;
+		};
+		D5F63D541FE0008600D26AEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5F63D2F1FE0008500D26AEB /* Nasa:Meteorite Landings */;
+			targetProxy = D5F63D531FE0008600D26AEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5F63D371FE0008500D26AEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F63D381FE0008500D26AEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5F63D3F1FE0008500D26AEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5F63D401FE0008500D26AEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5F63D591FE0008600D26AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D5F63D5A1FE0008600D26AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5F63D5C1FE0008600D26AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nasa:Meteorite Landings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-Landings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5F63D5D1FE0008600D26AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nasa:Meteorite Landings/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-Landings";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D5F63D5F1FE0008600D26AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nasa:Meteorite LandingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-LandingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nasa:Meteorite Landings.app/Nasa:Meteorite Landings";
+			};
+			name = Debug;
+		};
+		D5F63D601FE0008600D26AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nasa:Meteorite LandingsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-LandingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nasa:Meteorite Landings.app/Nasa:Meteorite Landings";
+			};
+			name = Release;
+		};
+		D5F63D621FE0008600D26AEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nasa:Meteorite LandingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-LandingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nasa:Meteorite Landings";
+			};
+			name = Debug;
+		};
+		D5F63D631FE0008600D26AEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Nasa:Meteorite LandingsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-LandingsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Nasa:Meteorite Landings";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5F63D2B1FE0008500D26AEB /* Build configuration list for PBXProject "Nasa:Meteorite Landings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F63D591FE0008600D26AEB /* Debug */,
+				D5F63D5A1FE0008600D26AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F63D5B1FE0008600D26AEB /* Build configuration list for PBXNativeTarget "Nasa:Meteorite Landings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F63D5C1FE0008600D26AEB /* Debug */,
+				D5F63D5D1FE0008600D26AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F63D5E1FE0008600D26AEB /* Build configuration list for PBXNativeTarget "Nasa:Meteorite LandingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F63D5F1FE0008600D26AEB /* Debug */,
+				D5F63D601FE0008600D26AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5F63D611FE0008600D26AEB /* Build configuration list for PBXNativeTarget "Nasa:Meteorite LandingsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5F63D621FE0008600D26AEB /* Debug */,
+				D5F63D631FE0008600D26AEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D5F63D3A1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D5F63D3B1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodel */,
+			);
+			currentVersion = D5F63D3B1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodel */;
+			path = Nasa_Meteorite_Landings.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D5F63D281FE0008500D26AEB /* Project object */;
+}
