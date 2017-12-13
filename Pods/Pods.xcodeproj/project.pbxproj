@@ -1,0 +1,735 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0353B1AFE9F17A44D913B78CE0F7014B /* SwiftSpinner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0A9B2A3C6766899F73F18E3CAE95FB /* SwiftSpinner-dummy.m */; };
+		0F9443C940A1A9582D065E099A02DE38 /* SwiftSpinner.h in Headers */ = {isa = PBXBuildFile; fileRef = 855D38B6FF1C798B2050EED29D01AF83 /* SwiftSpinner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B944A4F5D9B64163C8E846180D7702B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		433FFF41B8FD49034B468C1C59759FE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		9AFEB9F17E152E4CC21CEA50C65A5FF9 /* Pods-Nasa:Meteorite Landings-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 35AAF0AEBB8ACD553EE75084CFEF036F /* Pods-Nasa:Meteorite Landings-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A3F27F0788ADBCE94AD8A1166DD6BB43 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3CCB65F1CE6B71822E6E4771D36A4743 /* SwiftyJSON-dummy.m */; };
+		D0FF32327C72414A46314A7748F43B13 /* SwiftSpinner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 169C4312F7F2D77B561196ED5DF94E9B /* SwiftSpinner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5BE6D2ADF811FE6621F6492D27E5BC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */; };
+		DEE9C35C59B11F8D345D3C41DA44F721 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = D866FE524CCFA70E72ECDEC8256B3BE3 /* SwiftyJSON.swift */; };
+		E607973394162B16A3CBE17CBD2AC134 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */; };
+		EEBB58BFF1238306313E5234F382CB52 /* SwiftSpinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62B99732CD112F881C5A456842FCA4C5 /* SwiftSpinner.swift */; };
+		EFFD3E649AED0074CD71336D2578242D /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 13BA727F1BE7D484003092E9C2788BC4 /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F8A129BFE385657A34F6752E0313CBC8 /* Pods-Nasa:Meteorite Landings-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B466B08C6D98554C64F73845DEAAC1C6 /* Pods-Nasa:Meteorite Landings-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		48B949756F3FFBB306180B9F80761C6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A0B7E0DA727D27F1A8069D2B56EE497;
+			remoteInfo = SwiftyJSON;
+		};
+		EA25B1B4E54D035CBB3D6CCD89CEAC2F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9B1DFFAE29267D152A929663B2F63DA;
+			remoteInfo = SwiftSpinner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		13BA727F1BE7D484003092E9C2788BC4 /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		169C4312F7F2D77B561196ED5DF94E9B /* SwiftSpinner-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-umbrella.h"; sourceTree = "<group>"; };
+		1C18182F3DC14B26E0395B7CFF6C715A /* Pods-Nasa:Meteorite Landings-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nasa:Meteorite Landings-frameworks.sh"; sourceTree = "<group>"; };
+		2C96F514F3AB4BD9E58AF6193A92F6B8 /* SwiftSpinner.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftSpinner.xcconfig; sourceTree = "<group>"; };
+		35AAF0AEBB8ACD553EE75084CFEF036F /* Pods-Nasa:Meteorite Landings-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Nasa:Meteorite Landings-umbrella.h"; sourceTree = "<group>"; };
+		3CCB65F1CE6B71822E6E4771D36A4743 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		3F275AAF736768739FB0C381EC897CC4 /* Pods-Nasa:Meteorite Landings-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Nasa:Meteorite Landings-resources.sh"; sourceTree = "<group>"; };
+		5C5FEB9EADE9494897459580B67912CD /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		62B99732CD112F881C5A456842FCA4C5 /* SwiftSpinner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSpinner.swift; path = SwiftSpinner/SwiftSpinner.swift; sourceTree = "<group>"; };
+		6A8A1CB28955BECF8CA10817FE416B4B /* Pods-Nasa:Meteorite Landings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nasa:Meteorite Landings.debug.xcconfig"; sourceTree = "<group>"; };
+		7099B4B48C8B6C10CA71C1EC8F8B0146 /* Pods-Nasa:Meteorite Landings-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Nasa:Meteorite Landings-acknowledgements.plist"; sourceTree = "<group>"; };
+		715CBB058005C170A0014333B3F27DA5 /* Pods-Nasa:Meteorite Landings.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Nasa:Meteorite Landings.modulemap"; sourceTree = "<group>"; };
+		855D38B6FF1C798B2050EED29D01AF83 /* SwiftSpinner.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftSpinner.h; path = SwiftSpinner/SwiftSpinner.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99B8C620ECF88482CBCC6C4EB57DF690 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FCB7DC460BDB8F7B89880EC03AB1E76 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		A330FD20A9361F235A42EF45817434E4 /* SwiftSpinner.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftSpinner.modulemap; sourceTree = "<group>"; };
+		AC42EEF53FDA4B15E3176819873B621D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B466B08C6D98554C64F73845DEAAC1C6 /* Pods-Nasa:Meteorite Landings-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Nasa:Meteorite Landings-dummy.m"; sourceTree = "<group>"; };
+		B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		BA0A9B2A3C6766899F73F18E3CAE95FB /* SwiftSpinner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftSpinner-dummy.m"; sourceTree = "<group>"; };
+		C1D3782EFF0BB99BE22CA8FDC75F6126 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C71FC7E8B35C08882A5AC796CC7EEDE0 /* Pods_Nasa_Meteorite_Landings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Nasa_Meteorite_Landings.framework; path = "Pods-Nasa:Meteorite Landings.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAFADA35C6BE83E8E6AD5CF37E919646 /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		D866FE524CCFA70E72ECDEC8256B3BE3 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DDC26B971C93B9E7C513F41FC1F45E5F /* Pods-Nasa:Meteorite Landings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Nasa:Meteorite Landings.release.xcconfig"; sourceTree = "<group>"; };
+		DDD5536180B42C04C77C802AE38FBDB7 /* Pods-Nasa:Meteorite Landings-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Nasa:Meteorite Landings-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EB35250B28FD7A332E0EE5579C134A2E /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftSpinner.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F28ED99FCE08D394D01676C7BA1EE850 /* SwiftSpinner-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftSpinner-prefix.pch"; sourceTree = "<group>"; };
+		FD9A02B5AE6B31A0352876C1A9007735 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B773C8B8D5CBC92E7FA439396854A17C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5BE6D2ADF811FE6621F6492D27E5BC7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9CBDB9D2C0A389EE60AE064F459D09E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B944A4F5D9B64163C8E846180D7702B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3EEF90D976EEDDE0AA57A9A65D810BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				433FFF41B8FD49034B468C1C59759FE3 /* Foundation.framework in Frameworks */,
+				E607973394162B16A3CBE17CBD2AC134 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06E665253F9E2F346FBB4A37E60028D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6EFFCEF9330F309AF0C005DF7C20A87C /* Pods-Nasa:Meteorite Landings */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		29F07CC0C4D3E15341D02803AC1F94A7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C1D3782EFF0BB99BE22CA8FDC75F6126 /* Info.plist */,
+				5C5FEB9EADE9494897459580B67912CD /* SwiftyJSON.modulemap */,
+				CAFADA35C6BE83E8E6AD5CF37E919646 /* SwiftyJSON.xcconfig */,
+				3CCB65F1CE6B71822E6E4771D36A4743 /* SwiftyJSON-dummy.m */,
+				9FCB7DC460BDB8F7B89880EC03AB1E76 /* SwiftyJSON-prefix.pch */,
+				13BA727F1BE7D484003092E9C2788BC4 /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		2DE8C12CFD1C6A81E36979F6EE7D845D /* SwiftSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				855D38B6FF1C798B2050EED29D01AF83 /* SwiftSpinner.h */,
+				62B99732CD112F881C5A456842FCA4C5 /* SwiftSpinner.swift */,
+				BE0A118401B6E26DF5424DB7F70B0AD7 /* Support Files */,
+			);
+			name = SwiftSpinner;
+			path = SwiftSpinner;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				438B396F6B4147076630CAEFE34282C1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		438B396F6B4147076630CAEFE34282C1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D88AAE1F92055A60CC2FC970D7D34634 /* Foundation.framework */,
+				B63C6A64CF66340668996F78DA6BB482 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		6EFFCEF9330F309AF0C005DF7C20A87C /* Pods-Nasa:Meteorite Landings */ = {
+			isa = PBXGroup;
+			children = (
+				AC42EEF53FDA4B15E3176819873B621D /* Info.plist */,
+				715CBB058005C170A0014333B3F27DA5 /* Pods-Nasa:Meteorite Landings.modulemap */,
+				DDD5536180B42C04C77C802AE38FBDB7 /* Pods-Nasa:Meteorite Landings-acknowledgements.markdown */,
+				7099B4B48C8B6C10CA71C1EC8F8B0146 /* Pods-Nasa:Meteorite Landings-acknowledgements.plist */,
+				B466B08C6D98554C64F73845DEAAC1C6 /* Pods-Nasa:Meteorite Landings-dummy.m */,
+				1C18182F3DC14B26E0395B7CFF6C715A /* Pods-Nasa:Meteorite Landings-frameworks.sh */,
+				3F275AAF736768739FB0C381EC897CC4 /* Pods-Nasa:Meteorite Landings-resources.sh */,
+				35AAF0AEBB8ACD553EE75084CFEF036F /* Pods-Nasa:Meteorite Landings-umbrella.h */,
+				6A8A1CB28955BECF8CA10817FE416B4B /* Pods-Nasa:Meteorite Landings.debug.xcconfig */,
+				DDC26B971C93B9E7C513F41FC1F45E5F /* Pods-Nasa:Meteorite Landings.release.xcconfig */,
+			);
+			name = "Pods-Nasa:Meteorite Landings";
+			path = "Target Support Files/Pods-Nasa:Meteorite Landings";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				D0E26F0A3BB3F4051E83C33ECFCB6172 /* Pods */,
+				EE8843FCF872104569439B50CEA57CE0 /* Products */,
+				06E665253F9E2F346FBB4A37E60028D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98202A671D9DACCFD126DDCF37386124 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				D866FE524CCFA70E72ECDEC8256B3BE3 /* SwiftyJSON.swift */,
+				29F07CC0C4D3E15341D02803AC1F94A7 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BE0A118401B6E26DF5424DB7F70B0AD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99B8C620ECF88482CBCC6C4EB57DF690 /* Info.plist */,
+				A330FD20A9361F235A42EF45817434E4 /* SwiftSpinner.modulemap */,
+				2C96F514F3AB4BD9E58AF6193A92F6B8 /* SwiftSpinner.xcconfig */,
+				BA0A9B2A3C6766899F73F18E3CAE95FB /* SwiftSpinner-dummy.m */,
+				F28ED99FCE08D394D01676C7BA1EE850 /* SwiftSpinner-prefix.pch */,
+				169C4312F7F2D77B561196ED5DF94E9B /* SwiftSpinner-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftSpinner";
+			sourceTree = "<group>";
+		};
+		D0E26F0A3BB3F4051E83C33ECFCB6172 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DE8C12CFD1C6A81E36979F6EE7D845D /* SwiftSpinner */,
+				98202A671D9DACCFD126DDCF37386124 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE8843FCF872104569439B50CEA57CE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C71FC7E8B35C08882A5AC796CC7EEDE0 /* Pods_Nasa_Meteorite_Landings.framework */,
+				EB35250B28FD7A332E0EE5579C134A2E /* SwiftSpinner.framework */,
+				FD9A02B5AE6B31A0352876C1A9007735 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5158551ACB2F9E247774DEC2BBB4A13F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFD3E649AED0074CD71336D2578242D /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69357A090A6B180CE884BF014DD8E0EE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0FF32327C72414A46314A7748F43B13 /* SwiftSpinner-umbrella.h in Headers */,
+				0F9443C940A1A9582D065E099A02DE38 /* SwiftSpinner.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CEB8F5A5770FBBE5517F174DA5DB627 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9AFEB9F17E152E4CC21CEA50C65A5FF9 /* Pods-Nasa:Meteorite Landings-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8A0B7E0DA727D27F1A8069D2B56EE497 /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 156AC57DFCB688631D1C3D9581140674 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				EBC5475B2CB99F30659E97FBDA2B82C7 /* Sources */,
+				B773C8B8D5CBC92E7FA439396854A17C /* Frameworks */,
+				5158551ACB2F9E247774DEC2BBB4A13F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = FD9A02B5AE6B31A0352876C1A9007735 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C9B1DFFAE29267D152A929663B2F63DA /* SwiftSpinner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CD15B7D9BA2896FB5D7868DB3FB6BD0 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */;
+			buildPhases = (
+				FA6111C7B4D6FEB3587CFF40F37FD986 /* Sources */,
+				F3EEF90D976EEDDE0AA57A9A65D810BD /* Frameworks */,
+				69357A090A6B180CE884BF014DD8E0EE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftSpinner;
+			productName = SwiftSpinner;
+			productReference = EB35250B28FD7A332E0EE5579C134A2E /* SwiftSpinner.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E333E698661703DD4856A327407636F7 /* Pods-Nasa:Meteorite Landings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44F37A06131EA4BA5105278E6A07378A /* Build configuration list for PBXNativeTarget "Pods-Nasa:Meteorite Landings" */;
+			buildPhases = (
+				03613D10689A78ED74F281803D95C7B9 /* Sources */,
+				D9CBDB9D2C0A389EE60AE064F459D09E /* Frameworks */,
+				7CEB8F5A5770FBBE5517F174DA5DB627 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				057127C40C4123CAA7725433DAF7F7EB /* PBXTargetDependency */,
+				2E37073BBC22F554C64022CC8CF80445 /* PBXTargetDependency */,
+			);
+			name = "Pods-Nasa:Meteorite Landings";
+			productName = "Pods-Nasa:Meteorite Landings";
+			productReference = C71FC7E8B35C08882A5AC796CC7EEDE0 /* Pods_Nasa_Meteorite_Landings.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = EE8843FCF872104569439B50CEA57CE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E333E698661703DD4856A327407636F7 /* Pods-Nasa:Meteorite Landings */,
+				C9B1DFFAE29267D152A929663B2F63DA /* SwiftSpinner */,
+				8A0B7E0DA727D27F1A8069D2B56EE497 /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03613D10689A78ED74F281803D95C7B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A129BFE385657A34F6752E0313CBC8 /* Pods-Nasa:Meteorite Landings-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBC5475B2CB99F30659E97FBDA2B82C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F27F0788ADBCE94AD8A1166DD6BB43 /* SwiftyJSON-dummy.m in Sources */,
+				DEE9C35C59B11F8D345D3C41DA44F721 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA6111C7B4D6FEB3587CFF40F37FD986 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0353B1AFE9F17A44D913B78CE0F7014B /* SwiftSpinner-dummy.m in Sources */,
+				EEBB58BFF1238306313E5234F382CB52 /* SwiftSpinner.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		057127C40C4123CAA7725433DAF7F7EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftSpinner;
+			target = C9B1DFFAE29267D152A929663B2F63DA /* SwiftSpinner */;
+			targetProxy = EA25B1B4E54D035CBB3D6CCD89CEAC2F /* PBXContainerItemProxy */;
+		};
+		2E37073BBC22F554C64022CC8CF80445 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 8A0B7E0DA727D27F1A8069D2B56EE497 /* SwiftyJSON */;
+			targetProxy = 48B949756F3FFBB306180B9F80761C6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04D5FAAA27E13E06F137D93B4EEDF2E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A8A1CB28955BECF8CA10817FE416B4B /* Pods-Nasa:Meteorite Landings.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nasa:Meteorite Landings/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nasa:Meteorite Landings/Pods-Nasa:Meteorite Landings.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nasa_Meteorite_Landings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4AFF57E10B3700DBAC72CDD1F4EB0FDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C96F514F3AB4BD9E58AF6193A92F6B8 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6B244D70BC05F27B8D9F4745E12F5FA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C96F514F3AB4BD9E58AF6193A92F6B8 /* SwiftSpinner.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftSpinner/SwiftSpinner-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftSpinner/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftSpinner/SwiftSpinner.modulemap";
+				PRODUCT_NAME = SwiftSpinner;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		72C9FDFC40B35707E58290684E1809DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDC26B971C93B9E7C513F41FC1F45E5F /* Pods-Nasa:Meteorite Landings.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Nasa:Meteorite Landings/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Nasa:Meteorite Landings/Pods-Nasa:Meteorite Landings.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Nasa_Meteorite_Landings;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7C07ED8089F70A31B83996A8910D7F18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		98F29E7567052F62660DDD7069ADF73C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B1CAB9B0791AD0ABC4E431C440B71A01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFADA35C6BE83E8E6AD5CF37E919646 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E63B7479E32BB26E410F2271494F56C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CAFADA35C6BE83E8E6AD5CF37E919646 /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		156AC57DFCB688631D1C3D9581140674 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CAB9B0791AD0ABC4E431C440B71A01 /* Debug */,
+				E63B7479E32BB26E410F2271494F56C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C07ED8089F70A31B83996A8910D7F18 /* Debug */,
+				98F29E7567052F62660DDD7069ADF73C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44F37A06131EA4BA5105278E6A07378A /* Build configuration list for PBXNativeTarget "Pods-Nasa:Meteorite Landings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04D5FAAA27E13E06F137D93B4EEDF2E4 /* Debug */,
+				72C9FDFC40B35707E58290684E1809DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CD15B7D9BA2896FB5D7868DB3FB6BD0 /* Build configuration list for PBXNativeTarget "SwiftSpinner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AFF57E10B3700DBAC72CDD1F4EB0FDD /* Debug */,
+				6B244D70BC05F27B8D9F4745E12F5FA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
