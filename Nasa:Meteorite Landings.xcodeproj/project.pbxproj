@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D5864B001FE0A07C0040BB93 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5864AFF1FE0A07C0040BB93 /* Reachability.swift */; };
+		D5864B011FE0A5DD0040BB93 /* SwiftSpinner.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5864B031FE0A5DD0040BB93 /* SwiftSpinner.framework */; };
+		D5864B021FE0A5DD0040BB93 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5864B041FE0A5DD0040BB93 /* SwiftyJSON.framework */; };
 		D5F63D341FE0008500D26AEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D331FE0008500D26AEB /* AppDelegate.swift */; };
 		D5F63D361FE0008500D26AEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D351FE0008500D26AEB /* ViewController.swift */; };
 		D5F63D391FE0008500D26AEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F63D371FE0008500D26AEB /* Main.storyboard */; };
@@ -15,6 +18,11 @@
 		D5F63D411FE0008500D26AEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5F63D3F1FE0008500D26AEB /* LaunchScreen.storyboard */; };
 		D5F63D4C1FE0008600D26AEB /* Nasa_Meteorite_LandingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D4B1FE0008600D26AEB /* Nasa_Meteorite_LandingsTests.swift */; };
 		D5F63D571FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D561FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift */; };
+		D5F63D661FE000EE00D26AEB /* DataHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D651FE000EE00D26AEB /* DataHelper.swift */; };
+		D5F63D6C1FE0071700D26AEB /* Meteorite+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D6A1FE0071700D26AEB /* Meteorite+CoreDataClass.swift */; };
+		D5F63D6D1FE0071700D26AEB /* Meteorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D6B1FE0071700D26AEB /* Meteorite+CoreDataProperties.swift */; };
+		D5F63D6F1FE03C2B00D26AEB /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F63D6E1FE03C2B00D26AEB /* DetailViewController.swift */; };
+		E781E86A9E17B9B5C0B354A5 /* Pods_Nasa_Meteorite_Landings.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58CE320A191E3980E2CE5D35 /* Pods_Nasa_Meteorite_Landings.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		451893440EA5E5FBFFCBCE2F /* Pods-Nasa:Meteorite Landings.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nasa:Meteorite Landings.release.xcconfig"; path = "Pods/Target Support Files/Pods-Nasa:Meteorite Landings/Pods-Nasa:Meteorite Landings.release.xcconfig"; sourceTree = "<group>"; };
+		58CE320A191E3980E2CE5D35 /* Pods_Nasa_Meteorite_Landings.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nasa_Meteorite_Landings.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		767218217AC3F9D4ED08F98D /* Pods-Nasa:Meteorite Landings.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nasa:Meteorite Landings.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Nasa:Meteorite Landings/Pods-Nasa:Meteorite Landings.debug.xcconfig"; sourceTree = "<group>"; };
+		D5864AFF1FE0A07C0040BB93 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D5864B031FE0A5DD0040BB93 /* SwiftSpinner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftSpinner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5864B041FE0A5DD0040BB93 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F63D301FE0008500D26AEB /* Nasa:Meteorite Landings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nasa:Meteorite Landings.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F63D331FE0008500D26AEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D5F63D351FE0008500D26AEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		D5F63D521FE0008600D26AEB /* Nasa:Meteorite LandingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nasa:Meteorite LandingsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5F63D561FE0008600D26AEB /* Nasa_Meteorite_LandingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nasa_Meteorite_LandingsUITests.swift; sourceTree = "<group>"; };
 		D5F63D581FE0008600D26AEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F63D651FE000EE00D26AEB /* DataHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataHelper.swift; sourceTree = "<group>"; };
+		D5F63D6A1FE0071700D26AEB /* Meteorite+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meteorite+CoreDataClass.swift"; sourceTree = "<group>"; };
+		D5F63D6B1FE0071700D26AEB /* Meteorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meteorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		D5F63D6E1FE03C2B00D26AEB /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5864B011FE0A5DD0040BB93 /* SwiftSpinner.framework in Frameworks */,
+				D5864B021FE0A5DD0040BB93 /* SwiftyJSON.framework in Frameworks */,
+				E781E86A9E17B9B5C0B354A5 /* Pods_Nasa_Meteorite_Landings.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +97,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D26431DA16D53FA283A57B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				767218217AC3F9D4ED08F98D /* Pods-Nasa:Meteorite Landings.debug.xcconfig */,
+				451893440EA5E5FBFFCBCE2F /* Pods-Nasa:Meteorite Landings.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9F1A7866582B21EE48F4ACB5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5864B031FE0A5DD0040BB93 /* SwiftSpinner.framework */,
+				D5864B041FE0A5DD0040BB93 /* SwiftyJSON.framework */,
+				58CE320A191E3980E2CE5D35 /* Pods_Nasa_Meteorite_Landings.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D5F63D271FE0008500D26AEB = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +123,8 @@
 				D5F63D4A1FE0008600D26AEB /* Nasa:Meteorite LandingsTests */,
 				D5F63D551FE0008600D26AEB /* Nasa:Meteorite LandingsUITests */,
 				D5F63D311FE0008500D26AEB /* Products */,
+				5D26431DA16D53FA283A57B6 /* Pods */,
+				9F1A7866582B21EE48F4ACB5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +141,7 @@
 		D5F63D321FE0008500D26AEB /* Nasa:Meteorite Landings */ = {
 			isa = PBXGroup;
 			children = (
+				D5F63D641FE000C200D26AEB /* Utils */,
 				D5F63D331FE0008500D26AEB /* AppDelegate.swift */,
 				D5F63D351FE0008500D26AEB /* ViewController.swift */,
 				D5F63D371FE0008500D26AEB /* Main.storyboard */,
@@ -106,6 +149,7 @@
 				D5F63D3F1FE0008500D26AEB /* LaunchScreen.storyboard */,
 				D5F63D421FE0008500D26AEB /* Info.plist */,
 				D5F63D3A1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodeld */,
+				D5F63D6E1FE03C2B00D26AEB /* DetailViewController.swift */,
 			);
 			path = "Nasa:Meteorite Landings";
 			sourceTree = "<group>";
@@ -128,6 +172,17 @@
 			path = "Nasa:Meteorite LandingsUITests";
 			sourceTree = "<group>";
 		};
+		D5F63D641FE000C200D26AEB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D5F63D6A1FE0071700D26AEB /* Meteorite+CoreDataClass.swift */,
+				D5F63D6B1FE0071700D26AEB /* Meteorite+CoreDataProperties.swift */,
+				D5F63D651FE000EE00D26AEB /* DataHelper.swift */,
+				D5864AFF1FE0A07C0040BB93 /* Reachability.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5F63D5B1FE0008600D26AEB /* Build configuration list for PBXNativeTarget "Nasa:Meteorite Landings" */;
 			buildPhases = (
+				FA129B67EFB5F15BDA702A03 /* [CP] Check Pods Manifest.lock */,
 				D5F63D2C1FE0008500D26AEB /* Sources */,
 				D5F63D2D1FE0008500D26AEB /* Frameworks */,
 				D5F63D2E1FE0008500D26AEB /* Resources */,
+				6A9807DA1E0025AD28EA4579 /* [CP] Embed Pods Frameworks */,
+				106E83C6A2299AA608273C16 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,14 +315,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		106E83C6A2299AA608273C16 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nasa:Meteorite Landings/Pods-Nasa:Meteorite Landings-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A9807DA1E0025AD28EA4579 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Nasa:Meteorite Landings/Pods-Nasa:Meteorite Landings-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftSpinner/SwiftSpinner.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftSpinner.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Nasa:Meteorite Landings/Pods-Nasa:Meteorite Landings-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA129B67EFB5F15BDA702A03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nasa:Meteorite Landings-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D5F63D2C1FE0008500D26AEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5F63D6D1FE0071700D26AEB /* Meteorite+CoreDataProperties.swift in Sources */,
 				D5F63D361FE0008500D26AEB /* ViewController.swift in Sources */,
+				D5F63D661FE000EE00D26AEB /* DataHelper.swift in Sources */,
 				D5F63D341FE0008500D26AEB /* AppDelegate.swift in Sources */,
 				D5F63D3C1FE0008500D26AEB /* Nasa_Meteorite_Landings.xcdatamodeld in Sources */,
+				D5F63D6C1FE0071700D26AEB /* Meteorite+CoreDataClass.swift in Sources */,
+				D5864B001FE0A07C0040BB93 /* Reachability.swift in Sources */,
+				D5F63D6F1FE03C2B00D26AEB /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,9 +547,11 @@
 		};
 		D5F63D5C1FE0008600D26AEB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 767218217AC3F9D4ED08F98D /* Pods-Nasa:Meteorite Landings.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK2NM7A55R;
 				INFOPLIST_FILE = "Nasa:Meteorite Landings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-Landings";
@@ -442,9 +563,11 @@
 		};
 		D5F63D5D1FE0008600D26AEB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 451893440EA5E5FBFFCBCE2F /* Pods-Nasa:Meteorite Landings.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RK2NM7A55R;
 				INFOPLIST_FILE = "Nasa:Meteorite Landings/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.oussama.Nasa-Meteorite-Landings";
